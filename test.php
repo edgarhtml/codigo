@@ -1,2 +1,2 @@
 <?php
-echo "código en php";
+echo "código en php cambio";
