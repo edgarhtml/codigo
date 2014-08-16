@@ -1,4 +1,4 @@
 <?php
 echo "código en php";
-echo "my new code";
+echo "my new code"."<br>";
 ?>
