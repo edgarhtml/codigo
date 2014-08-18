@@ -1,5 +1,5 @@
 <?php>
-	$pais="FRANCIA";
+	$pais="BRASIL";
 	switch ($pais){
 		case 'INGLATERRA':
 			echo("el usuarioes ingles.");
