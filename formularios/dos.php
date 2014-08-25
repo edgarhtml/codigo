@@ -10,7 +10,7 @@
 			<br>
 			<br>
 
-			<form name="new_formulario" id="new_formulario"  action="dos_form.php" method="get">
+			<form name="new_formulario" id="new_formulario"  action="dos_form.php" method="post">
 				
 				Teclee su nombre:
 				<input type="text" name="nombre" id="nombre">
