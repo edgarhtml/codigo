@@ -1,21 +1,42 @@
 <?php
 
+	function d(){
+		return "algo";
+	}
 	//uso de foreach
 
-	$ciudades = array("Madrid","Barcelona","Londres","New York","Los Angeles","Chicago");
-		foreach ($ciudades as $key => $value) {
-		echo("La ciudad con el indice $key tiene el nombre $value"."<br>");
+	$ciudades = array('Madrid',
+		'Barcelona','Londres',
+		'New York',
+		'Los Angeles',
+		'Chicago');
+
+
+
+		foreach ($ciudades as $k => $v) {
+			echo("La ciudad con el indice $k tiene el nombre $v <br>");
 		# code...
 		}
-	echo("<br>");
+	echo("<hr>");
 
 	//foreach con matriz asosiativa
 
 	$ciudades = array("md"=>"Madrid","ba"=> "Barcelona","lo"=> "Londres","ny"=> "New York","la"=> "Los Angeles","ch"=> "Chicago");
-		foreach ($ciudades as $key => $value) {
-			echo("La ciudad con el indice $key tiene el nombre $value . <br>");
+
+
+		foreach ($ciudades as $k => $v) {
+			echo("La ciudad con el indice $k tiene el nombre $v . <br>");
 			# code...
 		}
 
+
+	echo("<hr>");
+
+	// Solo valor
+
+		foreach ($ciudades as $v) {
+			echo("La ciudad tiene el nombre $v <br>");
+			# code...
+		}
 	
 ?>
