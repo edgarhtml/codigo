@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<form action="fichero_form.php" method="post" name="e_fichero" id="e_fichero" enctype="multipart/form-data" 
+	<form action="fichero_form.php" method="post" name="e_fichero" id="e_fichero" enctype="multipart/form-data">
     Fichero:
     <input type="file" name="fichero" id="fichero">
     <input type="submit" value="ENVIAR" name="ok" >
