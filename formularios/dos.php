@@ -13,6 +13,7 @@
 			<form name="new_formulario" id="new_formulario"  action="dos_form.php" method="post">
 				
 				Teclee su nombre:
+				
 				<input type="text" name="nombre" id="nombre">
 				
 				<hr>
@@ -38,7 +39,7 @@
 				
 				<input name="edad" type="radio" value="mas de 40 años ">
 				<hr>
-				Escribe la fecha de nacimiento:
+				Escribe tu fecha de nacimiento:
 				<input name="fecha" type="date" id="fecha" value="fecha de nacimiento">
 				<hr>
 				<input name="datoOculto" type="hideen" id="datoOculto" value="Este dato es oculto">
@@ -50,7 +51,7 @@
 					<input type="submit" value="enviar" name="ok" id="ok">
 				</p>
 
-			</center>
+		
 
 		</form>
 	</body>
