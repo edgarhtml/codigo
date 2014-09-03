@@ -9,16 +9,26 @@
 			<br>
 			<br>
 			<br>
-
-			<form name="new_formulario" id="new_formulario"  action="dos_form.php" method="post">
 				
+			<form name="new_formulario" id="new_formulario"  action="dos_form.php" method="post">
+				Sube tu foto:
+                <form action="dos_form.php" method="post" name="gfichero" id="gfichero" enctype="multipart/form-data">
+        
+        		<input type="file" name="fichero" id="fichero">
+        
+       			 <br>
+        
+       			
+        
+       			 
+                 <hr>
 				Teclee su nombre:
 				
 				<input type="text" name="nombre" id="nombre">
 				
 				<hr>
 
-				¿Es usted soltero?
+				¿Es usted solter@?
 				<input type="radio" name="soltero" id="soltero" value="si">
 				<input type="radio" name="soltero" id="soltero" value="no">
 				<hr>
@@ -47,11 +57,12 @@
 				Escribe una contraseña:
 				<input name="contraseña" type="password" id="contraseña" value="">
 				<hr>
-				<p>
-					<input type="submit" value="enviar" name="ok" id="ok">
-				</p>
+                
+				
+					 <input type="submit" value="ENVIAR" name="ok">
+				
 
-		
+			 </form> 
 
 		</form>
 	</body>

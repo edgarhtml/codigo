@@ -1,5 +1,5 @@
 <?php
-	foreach ($_FILES["fichero"] as $clave => $valor){
-		echo "Propiedad: $clave ------ Valor: $valor<br>";	
+	foreach ($_FILES["fichero"] as $key => $valor){
+		echo "Propiedad: $key ------ Valor: $valor<br>";	
 	}
 ?>
