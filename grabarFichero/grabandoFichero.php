@@ -29,7 +29,7 @@
         
         <input type="submit" value="ENVIAR" name="ok">
         
-        </form> 0
+        </form> 
 		
 	</body>
 </html>

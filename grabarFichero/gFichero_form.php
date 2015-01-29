@@ -3,19 +3,7 @@
 	if($_FILES["fichero"]["type"]!=image/pjpeg){
 		die("El fichero no tiene el formato adecuado.");
 	}
-	//Comprobando que te// * Dependencies * 
-// this function requires the following snippets:
-// JavaScript/Randomizers/randomNumber
-// JavaScript/conversions/base_conversion/decToHex
-function randomBgColor()
-{
-  var r,g,b;
-  r = decToHex(randomNumber(256)-1);
-  g = decToHex(randomNumber(256)-1);
-  b = decToHex(randomNumber(256)-1);
-  document.bgColor = "#" + r + g + b;
-}
-nga un peso adecuado.
+	//Comprobando que tenga un peso adecuado.
 	if($_FILES["fichero"]["size"] > 200000){
 		die("El fichero no tiene el tamaño adecuado.");
 	}
